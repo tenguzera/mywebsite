@@ -1,0 +1,41 @@
+@import url("https://use.typekit.net/dxs4nsx.css");
+
+body {
+    background-color: #f3f3f3;
+    font-family: 'droid-sans';
+    font-size: 18px;
+}
+
+p {
+    margin-top: 0;
+}
+
+div#divbox {
+    background-color: white;
+    margin: auto;
+    width: 850px;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+div#contentbox {
+    box-sizing: content-box;
+    width: 100%;
+    margin-top: 2px
+}
+
+footer {
+  background-color: #0004;
+  font-size: 0.875rem;
+  text-align: center;
+  padding: 10px 4px;
+  border-top: 1px solid #ffffff1e;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 25px;
+}
+
