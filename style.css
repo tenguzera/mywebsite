@@ -1,23 +1,85 @@
+/* Importar a Fonte Utilizada */
 @import url("https://use.typekit.net/dxs4nsx.css");
 
+/* Ajustes Gerais */
 body {
     background-color: #f3f3f3;
     font-family: 'droid-sans';
     font-size: 18px;
+    background-image: url('blog/img/01.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
+
+/* Links Referenciados */
+a:link {
+    color: rgb(15, 99, 253);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(15, 99, 253);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(70, 145, 243);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/* Gambiarra no Parágrafo */
 p {
     margin-top: 0;
 }
 
+/* Barra de Navegação */
+.topnav {
+    background-color: rgba(19, 19, 19, 0.856);
+    overflow: hidden;
+    position: static;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #e6e4e4ea;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #21496c;
+    color: white;
+}
+
+/* Caixa de Texto */
 div#divbox {
     background-color: white;
-    margin: auto;
+    position: fixed;
     width: 850px;
     height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -130%);
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgb(73, 70, 70);
 }
 
 div#contentbox {
@@ -26,8 +88,54 @@ div#contentbox {
     margin-top: 2px
 }
 
+/* Botão */
+.button {
+    position: fixed;
+    right: 50px;
+    top: 262px;
+    display: inline-block;
+    border-radius: 3px;
+    background-color: #21496c;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;     
+    font-size: 16px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -5px;
+    transition: 0.3s;
+  }
+  
+  .button:hover span {
+    padding-right: 17px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/* Footer */
 footer {
-  background-color: #0004;
+  background-color: rgba(19, 19, 19, 0.938);
+  color: #f3f3f3;
   font-size: 0.875rem;
   text-align: center;
   padding: 10px 4px;
