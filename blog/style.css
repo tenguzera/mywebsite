@@ -39,6 +39,12 @@ p {
     margin-top: 0;
 }
 
+h1 {
+  font-size: 20pt;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 /* Barra de Navegação */
 .topnav {
     background-color: rgba(19, 19, 19, 0.856);
@@ -72,11 +78,11 @@ p {
 div#divbox {
     background-color: white;
     position: fixed;
-    width: 850px;
+    width: 1000px;
     height: auto;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -130%);
+    transform: translate(-50%, -90%);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 5px 5px 10px rgb(73, 70, 70);
@@ -92,7 +98,7 @@ div#contentbox {
 .button {
     position: fixed;
     right: 50px;
-    top: 262px;
+    top: 371px;
     display: inline-block;
     border-radius: 3px;
     background-color: #21496c;
